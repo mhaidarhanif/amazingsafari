@@ -13,7 +13,10 @@ Table of Contents:
 ## Links
 
 - Website: <https://amazingsafari.haidar.dev>
-- UI/UX Design: <https://figma.com>
+- Repositories:
+  - General: <https://github.com/mhaidarhanif/amazingsafari>
+  - Backend: <https://github.com/mhaidarhanif/amazingsafari-backend>
+  - Frontend: <https://github.com/mhaidarhanif/amazingsafari-frontend>
 
 Inspirations:
 
