@@ -56,3 +56,7 @@ Inspirations:
 ### Home Page
 
 <img alt="Home Page" src="./designs/home.jpg" width="400" />
+
+## Entity Relationship Diagram (ERD)
+
+![ERD](./diagrams/erd.svg)
