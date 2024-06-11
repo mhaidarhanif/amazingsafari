@@ -1,6 +1,6 @@
 # Amazing Safari
 
-Amazing Safari online store for zoo animals merchandise
+[Amazing Safari](https://amazingsafari.haidar.dev) online store for zoo animals merchandise
 
 Table of Contents:
 
@@ -12,7 +12,8 @@ Table of Contents:
 
 ## Links
 
-- Website: <https://amazingsafari.haidar.dev>
+- Website/Frontend: <https://amazingsafari.haidar.dev>
+  - Backend: <https://amazingsafari-backend.haidar.dev>
 - Repositories:
   - General: <https://github.com/mhaidarhanif/amazingsafari>
   - Backend: <https://github.com/mhaidarhanif/amazingsafari-backend>
