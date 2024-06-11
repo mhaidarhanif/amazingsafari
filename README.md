@@ -2,6 +2,14 @@
 
 Amazing Safari online store for zoo animals merchandise
 
+Table of Contents:
+
+- [Amazing Safari](#amazing-safari)
+  - [Links](#links)
+  - [Features](#features)
+  - [UI Designs](#ui-designs)
+    - [Home Page](#home-page)
+
 ## Links
 
 - Website: <https://amazingsafari.haidar.dev>
@@ -11,6 +19,7 @@ Inspirations:
 
 - <https://safariwonders.com>
 - <https://tamansafari.com>
+- <https://stlzoo.org/services/gift-shops/zoo-merchandise>
 
 ## Features
 
@@ -35,3 +44,11 @@ Inspirations:
     - Product items to buy
     - Grand total of all product items to buy
 - Place order / transaction is being processed
+
+## UI Designs
+
+- Figma: <https://www.figma.com/design/TC8pwzy5HpWoFAQWJpN6IJ/amazingsafari.haidar.dev>
+
+### Home Page
+
+<img alt="Home Page" src="./designs/home.jpg" width="400" />
