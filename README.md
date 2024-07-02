@@ -1,6 +1,6 @@
 # Amazing Safari
 
-[Amazing Safari](https://amazingsafari.haidar.dev) online store for zoo animals merchandise
+[Amazing Safari](https://amazingsafari.haidar.dev) online store for zoo products merchandise
 
 Table of Contents:
 
@@ -29,7 +29,7 @@ Inspirations:
 
 - Home page
   - Hero section
-  - Products catalogue. Example: <https://safariwonders.com/product-animal>
+  - Products catalogue. Example: <https://safariwonders.com/product-product>
 - Product page
   - Image
   - SKU (stock keeping unit)
@@ -60,3 +60,51 @@ Inspirations:
 ## Entity Relationship Diagram (ERD)
 
 ![ERD](./diagrams/erd.svg)
+
+## REST API Endpoints
+
+- Production: `https://amazingsafari.haidar.dev`
+- Local: `http://localhost:3000`
+
+| Endpoint         | HTTP     | Description               |
+| ---------------- | -------- | ------------------------- |
+| `/products`      | `GET`    | Get all products          |
+| `/products/:id`  | `GET`    | Get product by id         |
+| `/products/seed` | `POST`   | Seed all initial products |
+| `/products`      | `POST`   | Add new product           |
+| `/products`      | `DELETE` | Delete all products       |
+| `/products/:id`  | `DELETE` | Delete product by id      |
+| `/products/:id`  | `PUT`    | Update product by id      |
+
+### Product
+
+```json
+{
+  "id": "abc123",
+  "name": "Panda Plush",
+  "price": 120000
+}
+```
+
+### Add New Product
+
+Request Body:
+
+```json
+{
+  "name": "Panda Plush",
+  "price": 120000,
+  "color": "white"
+}
+```
+
+Response Body:
+
+```json
+{
+  "id": "abc123",
+  "name": "Panda Plush",
+  "price": 120000,
+  "colors": ["white"]
+}
+```
